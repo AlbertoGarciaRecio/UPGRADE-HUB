@@ -1,5 +1,6 @@
 let input = document.querySelector("input");
 
-input.addEventListener("input", function() {
+input.addEventListener("input", checkContent);
+function checkContent() {
     console.log(input.value);
-})
+}

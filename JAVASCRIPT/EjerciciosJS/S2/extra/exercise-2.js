@@ -30,15 +30,13 @@ const users = [
 ]
 
 let totalVolume = 0;
+let volumeCount = 0;
 for(let user of users) {
-    let favSounds = user.favoritesSounds;
-    // console.log(favSounds)
-    for(let favoriteSound in favSounds){
-        // console.log(favSounds[favoriteSound]);
-        let sound = favSounds[favoriteSound];
-        for(let soundes in sound){
-            // console.log(soundes)
-            console.log(sound[soundes])
-        }
+    const favouriteSounds = user.favoritesSounds;
+    for (soundKey in favouriteSounds) {
+        const soundInfo = favouriteSounds[soundKey];
+        volumeCount ++;
+        totalVolume += soundInfo.volume;
     }
 }
+console.log(totalVolume / volumeCount);

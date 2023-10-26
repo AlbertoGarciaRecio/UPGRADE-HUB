@@ -12,7 +12,9 @@ function findArrayIndex(array, text) {
 }
 function removeItem(array, text) {
     let findedItem = findArrayIndex(array, text);
-    array.splice(findedItem, 1);
+    if(findedItem > -1) {
+        array.splice(findedItem, 1);
+    }
     return array;
 }
 
