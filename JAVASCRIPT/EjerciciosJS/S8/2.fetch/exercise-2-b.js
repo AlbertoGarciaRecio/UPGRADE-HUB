@@ -13,7 +13,7 @@ function search() {
             document.body.appendChild(p);
             for(let elem of myJson.country) {
                 let percent = Math.round(elem.probability * 100)
-                p.textContent = p.textContent + percent + " porciento de ser de " + elem.country_id + ", "
+                p.textContent = p.textContent + percent + " porciento de ser de " + elem.country_id + " y "
             }
         })
 }
