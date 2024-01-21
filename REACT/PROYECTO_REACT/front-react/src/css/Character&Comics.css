@@ -1,0 +1,25 @@
+.imgCharacter, .imgComic {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  object-fit: cover;
+  object-position: top left;
+}
+article{
+  background-color: rgb(47, 79, 79, .5);
+  margin: 12px;
+  padding-bottom: 10px;
+}
+.imgCharacterName, .imgComicName {
+  width: 300px;
+  margin: 20px;
+  margin-top: 0;
+  font-size: larger;
+  /* background-color: rgba(255,255,255,.8); */
+}
+
+.imgComicList, .imgCharacterList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
