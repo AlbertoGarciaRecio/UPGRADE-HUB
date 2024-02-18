@@ -1,0 +1,16 @@
+<div class = "container_details">
+  <div class="details_img">
+    <img [src] = "character.image"/>
+  </div>
+  <div class="details_info">
+    <h2>Nombre: {{character.name}}</h2>
+    <h3>Género: {{character.gender}}</h3>
+    <h3>Especie: {{character.species}}</h3>
+    <h3>Estado: {{character.status}}</h3>
+    <h3 *ngIf="character.type==''">Tipo: No definido</h3>
+    <h3 *ngIf="character.type!=''">Tipo: {{character.type}}</h3>
+    <h3>Localización: {{character.location.name}}</h3>
+    <button [routerLink]="'/characters'">Volver a personajes</button>
+  </div>
+</div>
+  

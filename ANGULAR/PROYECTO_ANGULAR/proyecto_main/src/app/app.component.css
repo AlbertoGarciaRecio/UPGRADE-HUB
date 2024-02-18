@@ -1,0 +1,45 @@
+* {
+    font-family: "Rickymorty";
+}
+.menu {
+    display: flex;
+    align-content: center;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+}
+
+.menu button {
+    margin-top: 250px;
+    padding: 15px;
+    font-size: 22px;
+    background-image: url("./assets/favicon.png");
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    margin-inline: 30px;
+    border: none;
+    width: 150px;
+    height: 150px;
+}
+
+.menu button:hover{
+    animation: rotating 3s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes rotating{
+    from{
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to{
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

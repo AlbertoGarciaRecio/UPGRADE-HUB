@@ -1,0 +1,48 @@
+.container_character_parent {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.pagin_prev, .pagin_next {
+    font-family: 'Rickymorty';
+    font-size: 22px;
+    border: none;
+    background-image: url("../../assets/favicon.png");
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.pagin_prev {
+    position: absolute;
+    top:35%;
+    left: 15%;
+}
+
+.pagin_next {
+    position: absolute;
+    top:35%;
+    right: 15%;
+}
+
+.exit{
+    position: absolute;
+    top:5%;
+    right: 5%;
+    border: none;
+    font-size: 22px;
+    background-image: url("../../assets/favicon.png");
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    width: 75px;
+    height: 75px;
+    font-family: 'Rickymorty';
+    cursor: pointer;
+}

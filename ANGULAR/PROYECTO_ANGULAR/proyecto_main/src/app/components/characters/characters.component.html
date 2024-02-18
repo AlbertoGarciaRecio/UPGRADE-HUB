@@ -1,0 +1,7 @@
+<div class = "container_character_list" *ngFor = "let character of characterList">
+    <div>
+      <img [src] = "character.image" [routerLink]="['/detail', character.id]"/>
+      <!-- <button [routerLink]="['/detail', character.id]">Detalles</button> -->
+    </div>
+  </div>
+  

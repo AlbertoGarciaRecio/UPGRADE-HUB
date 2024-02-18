@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Rickymorty";
+    src: url("./app/assets/get_schwifty.ttf")
+}
+
+@font-face {
+    font-family: "Rickymorty2";
+    src: url("./app/assets/WubbaLubbaDubDub.ttf")
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-image: url("./app/assets/pantalla_inicio2.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

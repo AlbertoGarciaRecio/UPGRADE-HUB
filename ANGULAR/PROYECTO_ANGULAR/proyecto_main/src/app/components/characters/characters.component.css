@@ -1,0 +1,21 @@
+.container_character_list {
+    font-family: "Rickymorty2";
+    margin-top: 40px;
+    margin-inline: 30px;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.container_character_list:hover {
+    filter: grayscale(0);
+    transition: all 0.3s linear;
+}
+
+.container_character_list img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.container_character_list button {
+    font-family: "Rickymorty";
+}

@@ -1,0 +1,26 @@
+.container_details {
+    font-family: "Rickymorty2";
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px white;
+}
+
+.container_details img {
+    margin-block: 15%;
+    box-shadow: 3px 3px 20px white;
+}
+
+.container_details h2 {
+    margin-top: 0;
+}
+
+.container_details button {
+    font-family: "Rickymorty2";
+}
+
